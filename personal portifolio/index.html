@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwaituka's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-gray-800 shadow-lg z-50">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold">Mwaituka's Portfolio</h1>
+            <button id="menu-btn" class="md:hidden text-white text-2xl">☰</button>
+            <ul id="menu" class="hidden md:flex space-x-6">
+                <li><a href="#about" class="hover:text-blue-400">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+                <li><a href="#achievements" class="hover:text-blue-400">Achievements</a></li>
+                <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+                <li><a href="#blog" class="hover:text-blue-400">Blog</a></li>
+            </ul>
+        </div>
+        <ul id="mobile-menu" class="hidden bg-gray-800 text-right p-4 md:hidden">
+            <li><a href="#about" class="block py-2 hover:text-blue-400">About</a></li>
+            <li><a href="#skills" class="block py-2 hover:text-blue-400">Skills</a></li>
+            <li><a href="#projects" class="block py-2 hover:text-blue-400">Projects</a></li>
+            <li><a href="#achievements" class="block py-2 hover:text-blue-400">Achievements</a></li>
+            <li><a href="#contact" class="block py-2 hover:text-blue-400">Contact</a></li>
+            <li><a href="#blog" class="block py-2 hover:text-blue-400">Blog</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="top" class="h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-4 pt-20 md:pt-0">
+        <img src="profile2.jpg" alt="Mr mwaituka" class="w-40 h-40 md:w-60 md:h-60 object-cover rounded-full border-4 border-blue-400 shadow-lg mb-6 md:mb-0 md:mr-8">
+        <div>
+            <h2 class="text-5xl font-bold">Hi, I'm <span class="text-blue-400">Steven Mwaituka</span></h2>
+            <p class="text-2xl mt-4">A Passionate Fullstack Developer & Designer</p>
+            <a href="#contact" class="mt-6 px-6 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-xl">Contact Me</a>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <section id="about" class="container mx-auto py-20 px-3 flex flex-col md:flex-row items-center">
+        <img src="it.jpeg" alt="Your Name" class="w-full md:w-1/2 h-auto md:h-96 object-cover shadow-lg mb-6 md:mb-0 md:mr-12">
+        <div>
+            <h2 class="text-3xl font-bold text-blue-400">About Me</h2>
+            <p class="mt-4 text-gray-300">I am a fullstack developer (frontend & backend developer) specializing in building modern 
+                and interactive web applications and mobile applications. 
+                I have graduated and get my Batchelor Degree in Information Systems Management(ISM)
+                in Ardhi University(ARU) in year 2026, I get full experience through working on different 
+                projects and Industrial Trainings</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="container mx-auto py-20 px-5">
+        <h2 class="text-3xl font-bold text-blue-400">Skills</h2>
+        <h3 class="text-xl font-semibold">I have skilled in building web applications and mobile applications by using different programming languages as mentioned down below</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+            <div class="p-4 bg-gray-800 rounded text-center">HTML & CSS</div>
+            <div class="p-4 bg-gray-800 rounded text-center">JavaScript (React & Node)</div>
+            <div class="p-4 bg-gray-800 rounded text-center">Python (Django & Flask)</div>
+            <div class="p-4 bg-gray-800 rounded text-center">PHP (Laravel)</div>
+            <div class="p-4 bg-gray-800 rounded text-center">Kotlin & Swift</div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold text-blue-400">Projects</h2>
+        <h3 class="text-2xl font-semibold mt-4">I have done different projects in my career, here are some:</h3>
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-2xl font-semibold">Real Estate System</h3>
+                <p class="text-lg text-gray-300 mt-2">A platform for estate sellers and buyers.</p>
+                <img src="image.png" alt="Real Estate System" class="mt-4 w-full h-48 object-cover rounded">
+                <a href="" class="mt-4 block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-center text-lg">Explore the Project</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-2xl font-semibold">Budget Tracking System</h3>
+                <p class="text-lg text-gray-300 mt-2">An app for tracking personal budgets.</p>
+                <img src="image1.png" alt="Budget Tracking System" class="mt-4 w-full h-48 object-cover rounded">
+                <a href="" class="mt-4 block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-center text-lg">Explore the Project</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-2xl font-semibold">Gym Management System</h3>
+                <p class="text-lg text-gray-300 mt-2">Manages gym attendance, payments, and equipment.</p>
+                <img src="gym.png" alt="Gym Management System" class="mt-4 w-full h-48 object-cover rounded">
+                <a href="" class="mt-4 block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-center text-lg">Explore the Project</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Achievements Section -->
+    <section id="achievements" class="container mx-auto py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold text-blue-400">Achievements</h2>
+        <div class="mt-6 space-y-4">
+            <div class="bg-gray-800 p-4 rounded">Graduated with a Bachelor's Degree in Information Systems Management.</div>
+            <div class="bg-gray-800 p-4 rounded">Developed a real estate platform that helped over 500 users.</div>
+            <div class="bg-gray-800 p-4 rounded">Created a budget tracking app used by 1,000+ people.</div>
+            <div class="bg-gray-800 p-4 rounded">Built a gym management system adopted by multiple fitness centers.</div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold text-blue-400">Contact Me</h2>
+        <h3 class="text-2xl font-semibold mt-4">Steven Mwaituka</h3>
+        <h3 class="text-xl font-semibold">Software Developer</h3>
+        <h3 class="text-xl font-semibold">📍 Dar Es Salaam, Tanzania</h3>
+        <h3 class="text-xl font-semibold">📞 Call me: +255 711 630 071</h3>
+        <h3 class="text-xl font-semibold">📧 Email: mwaitukasteven@gmail.com</h3>
+        
+        <div class="flex space-x-6 justify-center">
+            <a href="https://web.facebook.com/" target="_blank" class="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow transition hover:bg-gray-200">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="w-8 h-8">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow transition hover:bg-gray-200">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn" class="w-8 h-8">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow transition hover:bg-gray-200">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="w-8 h-8">
+            </a>
+            <a href="https://wa.me/255711630071?text=Hello,%20I'm%20interested%20in%20your%20services!" target="_blank" class="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow transition hover:bg-gray-200">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-8 h-8">
+            </a>
+        </div>
+    </section>
+    
+    <!-- Blog Section -->
+    <section id="blog" class="container mx-auto py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold text-blue-400">Blog</h2>
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-2xl font-semibold">The Future of Web Development</h3>
+                <p class="text-lg text-gray-300 mt-2">Exploring the latest trends in web technologies.</p>
+                <a href="https://www.theedigital.com/blog/web-design-trends" class="mt-4 block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-center text-lg">open blog</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-2xl font-semibold">Learn React</h3>
+                <p class="text-lg text-gray-300 mt-2">A deep dive into React and its advantages.</p>
+                <a href="https://react.dev/" class="mt-4 block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-center text-lg">open blog</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-2xl font-semibold">Learn django for backend</h3>
+                <p class="text-lg text-gray-300 mt-2">Learn from the scrach how can you use django as your backend framework.</p>
+                <a href="https://www.django-rest-framework.org/" class="mt-4 block px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition text-center text-lg">open blog</a>
+            </div>
+        </div>
+    </section>
+    <div class="m-4">
+        <a href="#top" class="mt-4 px-6 py-1 w-full bg-red-500 text-white rounded hover:bg-red-600 transition">back to top</a>
+    </div>
+    
+
+    
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-gray-800">
+        <p>© 2025 Mr Mwaituka. All rights reserved.</p>
+    </footer>
+</body>
+</html>
